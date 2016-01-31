@@ -36,7 +36,7 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
   gem 'rspec-rails'
-  gem 'cucumber-rails', require => false
+  gem 'cucumber-rails'
   gem 'database_cleaner'
   gem 'vcr'
   gem 'webmock'
@@ -48,7 +48,7 @@ group :development do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
-  gem 'guard spork'
-  gem 'guard cucumber'
+  gem 'guard-spork'
+  gem 'guard-cucumber'
 end
 
